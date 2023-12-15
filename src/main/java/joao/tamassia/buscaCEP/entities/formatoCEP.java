@@ -91,4 +91,19 @@ public class formatoCEP {
     public void setSiafi(String siafi) {
         this.siafi = siafi;
     }
+
+    @Override
+    public String toString() {
+        return  "cep='" + cep + '\'' +
+                ", logradouro='" + logradouro + '\'' +
+                ", complemento='" + complemento + '\'' +
+                ", bairro='" + bairro + '\'' +
+                ", localidade='" + localidade + '\'' +
+                ", uf='" + uf + '\'' +
+                ", ibge='" + ibge + '\'' +
+                ", gia='" + gia + '\'' +
+                ", ddd='" + ddd + '\'' +
+                ", siafi='" + siafi + '\'' +
+                '}';
+    }
 }
